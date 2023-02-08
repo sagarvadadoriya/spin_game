@@ -156,6 +156,7 @@ class _homeState extends State<home>  with SingleTickerProviderStateMixin {
                     shouldStartOrStop: _wheelNotifier.stream,
                   ),
                   SizedBox(height: 30),
+
                   StreamBuilder(
                     stream: _dividerController.stream,
                     builder: (context, snapshot) =>
