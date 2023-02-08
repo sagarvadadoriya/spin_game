@@ -159,6 +159,7 @@ class _homeState extends State<home>  with SingleTickerProviderStateMixin {
 
                   StreamBuilder(
                     stream: _dividerController.stream,
+
                     builder: (context, snapshot) =>
                     snapshot.hasData ? RouletteScore(snapshot.data) : Container(),
                   ),
