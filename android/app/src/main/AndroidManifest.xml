@@ -4,6 +4,9 @@
         android:label="spin_game"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+       <meta-data
+           android:name="com.google.android.gms.ads.APPLICATION_ID"
+           android:value="ca-app-pub-6267822657052661~9401329791"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
